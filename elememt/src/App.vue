@@ -1,12 +1,12 @@
 <template>
     <div id="app">
-        <div><button @click="test">测试</button></div>
+        <!-- <div><button @click="test">测试</button></div> -->
         <v-header></v-header>
         <el-row>
-        <el-col :span="3" class="tree-list">
+        <el-col :xs="8" :sm="6" :md="4" :lg="3">
             <tree :routes="routes"></tree>
         </el-col>
-        <el-col :span="9">
+        <el-col :xs="16" :sm="18" :md="20" :lg="21" class="app-content">
             <keep-alive>
                 <router-view></router-view>
             </keep-alive>
@@ -22,6 +22,7 @@
     
     const routes = {
         user: 'user',
+        adduser: 'adduser',
         system: 'system',
         test: 'test'
     }

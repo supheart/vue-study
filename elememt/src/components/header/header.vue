@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-            <el-submenu index="user">
+            <el-submenu class="user-wrapper" index="user">
                 <template slot="title">
                     <span class="user-info">
                         <img src="http://admintest.nzlm.cn/images/user.png" width="46" height="46" alt="avatar">

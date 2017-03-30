@@ -1,6 +1,10 @@
 #app {
-    .tree-list{
-        min-width: 180px;
-        height: 100%;
+    .app-content{
+        padding: 0 10px;
+        .breadcrumb-head{
+            height: 44px;
+            line-height: 44px;
+            font-size: 14px;
+        }
     }
 }

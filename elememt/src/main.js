@@ -5,6 +5,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-default/index.css';
 import App from './App.vue';
 import user from 'components/user/user.vue';
+import adduser from 'components/adduser/adduser.vue';
 import system from 'components/system/system.vue';
 import test from 'components/test/test.vue';
 
@@ -14,6 +15,7 @@ Vue.use(ElementUI);
 
 const routes = [
     { path: '/user', component: user },
+    { path: '/adduser', component: adduser },
     { path: '/system', component: system },
     { path: '/test', component: test }
 ];

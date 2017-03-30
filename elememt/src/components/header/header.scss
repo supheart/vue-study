@@ -1,11 +1,14 @@
 .header{
-    .user-info{
-        padding: 0 10px;
-        line-height: 60px;
-        img{
-            width: 46px; 
-            vertical-align: middle;
-            border-radius: 50%;
+    .user-wrapper{
+        float: right;
+        .user-info{
+            padding: 0 10px;
+            line-height: 60px;
+            img{
+                width: 46px;
+                vertical-align: middle;
+                border-radius: 50%;
+            }
         }
     }
 }
